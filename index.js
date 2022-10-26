@@ -72,6 +72,6 @@ app.delete('/employees/:id', function (req, res) {
   res.json({data: employee});
 });
 
-const server = app.listen(3000, function () {
+const server = app.listen(3001, function () {
   console.log('Server is running..');
 });
